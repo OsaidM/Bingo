@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bingo</title>
+</head>
+<body>
+    
+    <ul>
+        <li id="logo"><a href="index.html">Bingo</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="about"><a href="#about">About</a></li>
+    </ul>
+    
+    <section>
+        <div class="lastPicked lastPickedVal">
+            <p class="lastPickedText">
+                Last 
+                Picked
+            </p>
+        </div>
+        <div class="lastPickedVal">
+            <p class="lastPickedNumber">0</p>
+        </div>
+        <div class="tb1">
+            
+            <table class="centered" cellspacing="2">
+                <thead>
+                    <tr>
+                        <th colspan="5" class="player player-1">Player 1</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5" id="bingo">B,I,N,G,O</th>
+                    </tr>
+                </thead>
+                <tbody id="player1">
+                
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="tb2">
+            <table class="centered" cellspacing="2">
+                <thead>
+                <tr>
+                    <th colspan="5"class="player player-2">Player 2</th>
+                </tr>
+                <tr>
+                    <th colspan="5" id="bingo1">B,I,N,G,O</th>
+                </tr>
+                </thead>
+                <tbody id="player2">
+                
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+<script src="js/player1.js"></script>
+<script src="js/player2.js"></script>
+</html>

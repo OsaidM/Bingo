@@ -1,0 +1,152 @@
+body{
+  margin:2px 5px;
+}
+.nav-wrapper{
+  padding:0 20px;
+}
+section{
+  display: flex;
+  justify-content: center;
+}
+table{
+  width:450px;
+  line-height: 65px;
+  box-shadow: 1px 1px 3px grey;
+  padding:20px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+table th{
+  font-size:xxx-large;
+}
+table td{
+  text-align: center;
+}
+
+/* table td:first-child{
+    background-color: antiquewhite;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(104, 103, 103);
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px black;
+  }
+  
+  li {
+  float: left;
+  line-height: 16px;
+  }
+  
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+  background-color: #111;
+  }
+
+#logo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 750;
+  padding: 0 10px;
+  background-color: grey;
+}
+
+.active {
+  background-color: #04AA6D;
+  }
+
+.about{
+  float: right;
+  background-color: #04AA6D;
+}
+
+#bingo,#bingo1{
+  font-size: 65px;
+}
+.player{
+  padding: 15px;
+  border-bottom: 5px solid black;
+}
+.player-1{
+  color: darkmagenta;
+}
+
+.player-2{
+  color: indianred;
+}
+
+main{
+  width:70%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+
+.win{
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.win h1,img{
+  border-radius: 10px;
+  width:100%;
+  box-shadow: 2px 2px 2px black;
+}
+.win h1{
+  font-size: 50px;
+  background-color: darkseagreen;
+  margin: 5px auto;
+  box-shadow: 0px 0px 3px 1px black;
+}
+.win > h1 > span{
+  font-size: 90px;
+  color: brown;
+}
+
+.lastPickedVal{
+  display: flex;
+  width: 50px;
+  height:50px;
+  background-color: thistle;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 1px 1px 2px black;
+  padding:5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.lastPickedVal > .lastPickedNumber{
+  width:100%;
+  font-size: xxx-large;
+  font-weight: 900;
+}
+.lastPicked{
+  width: 120px;
+}
+.lastPickedVal .lastPickedText{
+  margin: 0 auto;
+  font-size: x-large;
+  color: red;
+}
+label{
+  color: tomato;
+  font-size: larger;
+  font-weight: 700;
+}
